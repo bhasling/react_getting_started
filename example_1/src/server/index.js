@@ -5,6 +5,7 @@ import next from 'next';
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const app = next({ dev: isDevelopment });
 const nextHandler = app.getRequestHandler();
+console.log("Prepare servers");
 app.prepare()
     .then(() => {
         console.log("Start server");
@@ -17,7 +18,7 @@ app.prepare()
         })
 
         const port = 3000;
-        server.listen(port, (err?: any) => {
+        server.listen(port, (err) => {
             if (err) throw err
             if (isDevelopment)
                 console.log('!!!!!!!!! RUNNING IN DEV MODE !!!!!!!!!!')
