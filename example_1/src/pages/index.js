@@ -1,5 +1,4 @@
 function HelloWorld() {
-    const varIABLE = "foo";
     return (
         <div>
             <h1>Hello World Program</h1>
