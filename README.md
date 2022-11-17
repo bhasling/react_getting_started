@@ -30,3 +30,17 @@ The source code consists of just 2 files:
 |package.json|Contains npm packages to install.|
 |src/pages/index.js|Contains the starting page React component.|
 
+### Example 2
+This demonstrates how to install and use material design components.
+This shows how you can use material design to create professional looking web sites.
+
+### Example 3
+One of the key benefits of React is the rich ecosystem of external components.
+This demonstrates how to install and use an external component that must be dynamically installed.
+This demonsrates an external component that can display a world map.
+
+### Example 4
+React is named because the view reacts to state changes.
+This demonstrates how to handle click events to change state and how to render information from state.
+
+
