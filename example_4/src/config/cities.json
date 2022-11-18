@@ -1,0 +1,7 @@
+{
+    "markers": [
+        {"id":"1", "lat": 41, "lon": -74.4, "name": "New York"},
+        {"id":"2", "lat": 40.9, "lon": -112, "name": "Salt Lake City"},
+        {"id":"3", "lat": 37.8, "lon": -122.4, "name": "San Francisco"}
+    ]
+}
