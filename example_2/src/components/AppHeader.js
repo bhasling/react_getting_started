@@ -5,7 +5,7 @@ import { Box, Paper } from "@mui/material";
 import HelpIcon from "@mui/icons-material/Help";
 import PersonIcon from "@mui/icons-material/Person";
 
-function AppHeader() {
+export default function AppHeader() {
     return (
         <Box>
             <Box
@@ -33,4 +33,3 @@ function AppHeader() {
         </Box>
     );
 }
-export default AppHeader;

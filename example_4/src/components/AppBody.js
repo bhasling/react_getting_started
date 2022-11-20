@@ -3,10 +3,8 @@ import { Box, Paper, Button } from "@mui/material";
 import WorldMap from "./WorldMap";
 import MarkerTable from "./MarkerTable";
 
-function AppBody() {
+export default function AppBody() {
     const [pageType, setPageType] = React.useState("map");
-
-    const url = "https://official-joke-api.appspot.com/random_joke";
 
     function clickType(pageType) {
         setPageType(pageType);
@@ -25,5 +23,3 @@ function AppBody() {
         </Box>
     );
 }
-
-export default AppBody;

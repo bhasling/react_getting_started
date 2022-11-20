@@ -11,7 +11,7 @@ import "leaflet-defaulticon-compatibility";
 import cities from "../config/cities.json";
 import { useGlobalState, setGlobalState } from "./GlobalState";
 
-function LeafletWorldMap() {
+export default function LeafletWorldMap() {
     const [currentCityId] = useGlobalState("currentCityId");
     const centerPoint = [42, -95];
     const zoomLevel = 4;
@@ -43,5 +43,3 @@ function LeafletWorldMap() {
         </Box>
     );
 }
-
-export default LeafletWorldMap;

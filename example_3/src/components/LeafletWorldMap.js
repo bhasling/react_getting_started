@@ -9,7 +9,7 @@ import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import "leaflet-defaulticon-compatibility";
 
-function LeafletWorldMap() {
+export default function LeafletWorldMap() {
     const centerPoint = [42, -95];
     const zoomLevel = 4;
     const mapWidth = typeof window !== "undefined" ? window.innerWidth - 10 : 0;
@@ -35,4 +35,3 @@ function LeafletWorldMap() {
     );
 }
 
-export default LeafletWorldMap;

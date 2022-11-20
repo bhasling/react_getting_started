@@ -1,6 +1,6 @@
 import { Box, Paper, Button } from "@mui/material";
 
-function AppBody() {
+export default function AppBody() {
     return (
         <Box>
             <Box sx={{ margin: 1, textAlign: "center" }}>Home Page</Box>
@@ -14,4 +14,3 @@ function AppBody() {
     );
 }
 
-export default AppBody;

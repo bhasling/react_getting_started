@@ -12,7 +12,7 @@ import {
 import cities from "../config/cities.json";
 import { useGlobalState, setGlobalState } from "./GlobalState";
 
-function MarkerTable() {
+export default function MarkerTable() {
     const markerList = cities ? cities.markers : [];
     const [currentCityId] = useGlobalState("currentCityId");
 
@@ -45,5 +45,3 @@ function MarkerTable() {
         </TableContainer>
     );
 }
-
-export default MarkerTable;
