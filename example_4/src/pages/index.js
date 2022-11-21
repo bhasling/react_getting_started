@@ -1,7 +1,7 @@
 import AppHeader from "../components/AppHeader";
 import AppBody from "../components/AppBody";
 
-function HelloWorld() {
+export default function HelloWorld() {
     return (
         <div>
             <AppHeader />
@@ -9,4 +9,3 @@ function HelloWorld() {
         </div>
     );
 }
-export default HelloWorld;

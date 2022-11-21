@@ -1,6 +1,6 @@
 /*
  Draw a world map (using Leaflet) to display the base map of the explore domain page.
- Leaflet must be dynamically loaded so this is a .js component seperate from MapHucSelection.
+ Leaflet must be dynamically loaded so this is a .js component seperate from WorldMap.
 */
 
 import { Box } from "@mui/material";
@@ -12,10 +12,11 @@ import "leaflet-defaulticon-compatibility";
 export default function LeafletWorldMap() {
     const centerPoint = [42, -95];
     const zoomLevel = 4;
-    const mapWidth = typeof window !== "undefined" ? window.innerWidth - 10 : 0;
-    const mapHeight =
-        typeof window !== "undefined" ? window.innerHeight - 140 : 0;
-    if (mapWidth == 0) return <div></div>;
+    let mapWidth = 0, mapHeight = 0;
+    if (typeof window != "undefined") {
+        mapWidth = window.innerWidth - 10;
+        mapHeight = window.innerHeight - 140;
+    }
 
     return (
         <Box sx={{ width: mapWidth, height: mapHeight }}>
@@ -34,4 +35,3 @@ export default function LeafletWorldMap() {
         </Box>
     );
 }
-

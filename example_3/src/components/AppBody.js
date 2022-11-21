@@ -4,9 +4,8 @@ import WorldMap from "./WorldMap";
 export default function AppBody() {
     return (
         <Box>
-            <Box sx={{ margin: 1, textAlign: "center" }}>Home Page</Box>
             <Paper>
-                <Box sx={{ margin: 1 }}>
+                <Box>
                     <Button>Map</Button>
                     <Button>Table</Button>
                 </Box>

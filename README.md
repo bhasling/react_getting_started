@@ -8,7 +8,7 @@ gradually increasing complexity showing new features.
 Each example folder is stand alone. It can be built and run independently. 
 
 ### Pre-Requisites
-It is a pre-requires that you already have nodejs and npm installed.
+It is a pre-requisite that you already have nodejs and npm installed.
 
     https://nodejs.org/en/download
 
@@ -37,14 +37,18 @@ This shows how you can use material design react components to create profession
 ### Example 3 - External Components
 One of the key benefits of React is the rich ecosystem of external components.
 This demonstrates how to install and use an external component that must be dynamically installed.
-This demonsrates an external component that can display a world map.
+The external component displays a world map that can
+be zoomed and panned.
 
 ### Example 4 - State Changes
 React is named because the view reacts to state changes.
+
 This demonstrates how to handle click events to change state and how to render information from state.
 
+This shows examples of both local and global state.
+
 ### Example 5 - Api
-This shows how to make API calls and bring in data from a remote server into react state.
+This example shows how to make API calls and bring in data from a remote server into react state.
 
 
 # Other Commands
@@ -55,7 +59,7 @@ You can build a folder of static HTML files from the react code using the comman
 
     npm run build
 
-This create a directory called 'out' containing state file that can be open locally
+This create a directory called 'out' containing static files that can be open locally
 or deployed to a web server to host your application.
 
 ### Pretty Print
@@ -65,4 +69,8 @@ You can pretty print your javascript using the command:
 
 This updates your code using a javascript pretty printer and an HTML pretty printer.
 
+# Slides
+This repo contains powerpoint slides providing an overview of the material used in the examples.
+
+    Powe
 

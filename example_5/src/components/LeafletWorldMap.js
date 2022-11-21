@@ -15,7 +15,8 @@ export default function LeafletWorldMap() {
     const [currentCityId] = useGlobalState("currentCityId");
     const centerPoint = [42, -95];
     const zoomLevel = 4;
-    let mapWidth = 0, mapHeight = 0;
+    let mapWidth = 0,
+        mapHeight = 0;
     if (typeof window != "undefined") {
         mapWidth = window.innerWidth - 10;
         mapHeight = window.innerHeight - 140;
