@@ -72,5 +72,4 @@ This updates your code using a javascript pretty printer and an HTML pretty prin
 # Slides
 This repo contains powerpoint slides providing an overview of the material used in the examples.
 
-    Powe
-
+    ReactGettingStartedSlides.pptx
