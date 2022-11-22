@@ -59,8 +59,7 @@ You can build a folder of static HTML files from the react code using the comman
 
     npm run build
 
-This create a directory called 'out' containing static files that can be open locally
-or deployed to a web server to host your application.
+This create a directory called 'out' containing static files that can be deployed to a web server to host your application.
 
 ### Pretty Print
 You can pretty print your javascript using the command:
